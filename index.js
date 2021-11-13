@@ -1,8 +1,11 @@
 'use strict';
 const http = require('http');
-
+const router = require('./lib/router');
 const server = http.createServer((req, res) => {
-  res.end('hi');
+  router.route(req, res);
+  if(!res.writableEnded) {
+    res.end('nothing');
+  }
 })
 .on('error', e => {
   console.error('Server Error', e);
