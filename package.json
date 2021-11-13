@@ -1,0 +1,12 @@
+{
+  "name": "secret-board",
+  "version": "1.0.0",
+  "description": "秘密の匿名掲示板",
+  "main": "index.js",
+  "repository": "https://github.com/satsukizzz/secret-board.git",
+  "author": "satsukizzz <dn.asp01@gmail.com>",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
