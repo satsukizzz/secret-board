@@ -8,5 +8,8 @@
   "scripts": {
     "test": "node test.js"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pug": "2.0.4"
+  }
 }
